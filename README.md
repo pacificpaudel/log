@@ -62,14 +62,15 @@ curl -H 'Content-Type: application/json' \
 http://localhost:5000/api/v1/get
 
 
+```sh
 curl -H 'Content-Type: application/json' \
 -d '{"username": "mateo", "email": "mateo@gmail.com"}' \
 -X POST \
 http://localhost:5000/api/v1/post
+```
 
 
-
-#DATABASE
+# DATABASE
 
 prostgresdb=> \c log
 psql (15.10 (Debian 15.10-0+deb12u1), server 14.14)
@@ -77,20 +78,20 @@ SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, compress
 You are now connected to database "log" as user "root".
 log=>
 
-
+```sh
 log=> \dt
        List of relations
  Schema | Name | Type  | Owner
 --------+------+-------+-------
  public | logs | table | root
 (1 row)
-
-
+```
+```sh
 log=> SELECT * from logs;
  id |      log       |           timestamp
 ----+----------------+-------------------------------
   1 | this is a test | 2025-02-11 16:50:33.657831+00
 (1 row)
-
+```
 
 I encountered several difficulties during npm installation and troubleshoot. 
