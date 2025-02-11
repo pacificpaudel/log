@@ -10,6 +10,7 @@ All columns must have the “NOT NULL” constraint.
 Create a CI/CD pipeline using GitHub actions to test and deploy the backend using infrastructure as code in any environment.
 We expect that this assignment takes about 1-3 hrs to complete. Feel free to use any tools/environment you wish or are comfortable with to accomplish the task."
 ```
+# PROJECT URL :(http://54.171.205.247/)
 
 ## Overview
 Your task is to create a backend using **TypeScript** and a **PostgreSQL** database. The backend must expose an API that allows for inserting and listing data from a `log` table.
