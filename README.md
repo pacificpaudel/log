@@ -60,7 +60,7 @@ http://localhost:5000/api/v1/get
 
 ```sh
 curl -H 'Content-Type: application/json' \
--d '{"1": "this is test log": "now()"}' \
+-d '{1, this is test log, now()}' \
 -X POST \
 http://localhost:5000/api/v1/post
 ```
