@@ -1,32 +1,39 @@
+
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>NGINX Open Source packaged by Bitnami</title>
+        <meta name="description" content="Bitnami: Open Source. Simplified.">
+        <meta name="author" content="Bitnami">
+        <link rel="stylesheet" media="screen" href="//unpkg.com/@bitnami/hex/dist/hex.min.css">
+    </head>
+    <body>
+    <section>
+        <main class="margin-t-huge">
+            <section aria-labelledby="installation-title" aria-describedby="installation-desc" class="container container-tiny margin-b-giant">
+                <h2 id="installation-title">DEMO POSTGRES TYPESCRIPT API CALLS</h2>
+                <div aria-hidden="true" style="height: 4px; width: 100%;" class="gradient-135-brand"></div>
 
-<h1>DEMO POSTGRES TYPESCRIPT API CALLS</h1>
+         </section>
+    </section>
+    <section aria-labelledby="installation-title" aria-describedby="installation-desc" class="container container-tiny margin-b-giant">
+	<iframe  height="40" style="background-color: green;" width="50%" src="/retrieve.php"></iframe>
+    <form method="post">
+        <label for="log_message">Log Message:</label>
+        <input type="text" id="log_message" name="log_message" required>
+        <button type="submit">log</button>
+    </form>
 
-<form action="/action_page.php">
- 
-  
-  <label for="lname">Input Your Log Here : </label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
+    <p>Click the "Submit" button and the data will be stored in Postgres DB</p>
+
+<form method="post">
+<button type="submit">Submit</button>
 </form>
 
-<p>Click the "Submit" button and the data will be stored in Postgres DB</p>
-
-
-
-
-<form action="/action_page.php">
- 
-  
-  <label for="lname">Retrieve the log from DB </label>
-  <input type="submit" value="RETRIEVE">
-</form>
-
+ <iframe  height="200"  width="50%" src="/list.php"></iframe>	
 
 
 </body>
+
 </html>
-
-
